@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Subtract extends StatelessWidget {
-  const Subtract({super.key});
+class DividePage extends StatelessWidget {
+  const DividePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,12 +10,12 @@ class Subtract extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text(
-            "Subtract",
+            "Divide",
             style: TextStyle(
               color: Colors.white,
             ),
           ),
-          backgroundColor: Colors.cyan,
+          backgroundColor: Colors.deepPurpleAccent,
         ),
         body: Padding(
           padding: const EdgeInsets.all(20.0),
@@ -44,7 +44,7 @@ class Subtract extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: () {},
                   child: Text(
-                    "SUBTRACT",
+                    "DIVIDE",
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 20,

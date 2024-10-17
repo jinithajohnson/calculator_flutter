@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MultiplyPage extends StatelessWidget {
-  const MultiplyPage({super.key});
+class multiply extends StatelessWidget {
+  const multiply({super.key});
 
   @override
   Widget build(BuildContext context) {
